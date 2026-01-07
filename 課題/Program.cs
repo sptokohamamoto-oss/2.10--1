@@ -1,18 +1,19 @@
-﻿using System.Net.Security;
+﻿using System;
 
     class Program
-{
-    static void Main()
     {
-        int x = 10;
-        int y = 3;
-        int resulet = x / y;
+        static void Main(string[] args)
+        {
+            int num1 = 7;
+            int num2 = 3;
 
-        Console.WriteLine(x + y); 
-        Console.WriteLine(x - y); 
-        Console.WriteLine(x * y);
-        double resultDouble = (double)x / y;
 
+            Console.WriteLine(num1 + num2);
+            Console.WriteLine(num1 - num2);
+            Console.WriteLine(num1 * num2);
+            Console.WriteLine(num1 % num2);
+            
+
+        }
 
     }
-}
