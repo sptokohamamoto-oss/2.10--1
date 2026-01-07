@@ -8,7 +8,7 @@
             int num2 = 3;
 
         int sum = num1 + num2;
-        Console.WriteLine($"{num1} +{num2} = {sum}");
+        Console.WriteLine($"{num1} + {num2} = {sum}");
 
         int difference = num1 - num2;
         Console.WriteLine($"{num1} - {num2} = {difference}");
