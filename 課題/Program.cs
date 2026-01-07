@@ -16,10 +16,11 @@
         int Product = num1 * num2;
         Console.WriteLine($"{num1} * {num2} = {Product}");
 
+        int quotient = num1 / num2;
         int remainder = num1 % num2;
-        Console.WriteLine($"{num1} % {num2} = {remainder}");
+        Console.WriteLine($"{num1} / {num2} = {quotient} 余り {remainder}");
 
-                     
+               
         }
 
     }
