@@ -16,8 +16,8 @@
         int Product = num1 * num2;
         Console.WriteLine($"{num1} * {num2} = {Product}");
 
-        int quotient = num1 % num2;
-        Console.WriteLine($"{num1} % {num2} = {quotient}");
+        int remainder = num1 % num2;
+        Console.WriteLine($"{num1} % {num2} = {remainder}");
 
                      
         }
